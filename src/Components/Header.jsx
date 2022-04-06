@@ -7,7 +7,7 @@ const Header = () => {
         <>
             <section className="headerComponent">
                 <div className="headerContent">
-                <h4 className="nameProject">Gerador de QR-Codes</h4>
+                <h4 className="nameProject">Gerador de QR-Code</h4>
                 <QRCodeSVG />
                 </div>
             </section>
