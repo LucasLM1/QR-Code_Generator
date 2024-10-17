@@ -1,0 +1,36 @@
+.footer {
+    &__content {
+        background-image: linear-gradient(180deg, var(--pink-LM), var(--black-LM));
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        padding: 10px 0;
+        box-shadow: 0px -3px 7px 3px #fa00c4;
+    }
+    &__development,
+    &__link {
+        color: var(--white-LM);
+        font-size: 18px;
+    }
+    &__development {
+        margin-top: 5px;
+    }
+    &__link {
+        text-decoration: none;
+        margin: 0 0 0 5px;
+        &::hover,
+        &::focus {
+            text-decoration: none;
+            color: var(--white-LM);
+        }
+    }
+    &__logo {
+        &--github,
+        &--linkedin {
+            width: 40px;
+            height: 40px;
+            padding: 12px;
+            margin: auto 5px;
+        }
+    }
+}

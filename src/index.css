@@ -2,10 +2,12 @@
 @import url('http://fonts.cdnfonts.com/css/hk-nova');
 
 :root {
-  --white: #fff;
-  --black: #000;
-  --gray: #666;
-  --blueLM: #009dac;
+  --white-LM: #fff;
+  --black-LM: #000;
+  --gray-LM: #666;
+  --blue-LM: #009dac;
+  --pink-LM: #fa00c4;
+  --purple-LM: #69005c
 }
 
 body {
@@ -15,51 +17,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.headerContent {
-  background-image: linear-gradient(180deg, #c3c3c3, var(--blueLM));
-  height: 65px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.nameProject {
-  display: flex;
-  text-align: center;
-  padding: 10px 0;
-  color: var(--black);
-  font-size: 20px;
-}
-
-.nameProject::after {
-  content: " ";
-  padding: 10px;
-}
-
-.insertText {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  padding: 15px 0;
-}
-
-.contentQRCode {
-  width: 40%;
-  padding: 10px;
-  height: 15px;
-  outline: none;
-  border: 1px solid var(--blueLM);
-  border-radius: 10px;
-  font-size: 20px;
-}
-
 #canvas {
-  position: relative;
+  /* position: relative;
   display: flex;
   top: 25%;
   left: 50%;
-  transform: translate(-50%, 25%);
+  transform: translate(-50%, 25%); */
+}
+
+.qrCode{
+  display: flex;
+  justify-content: center;
 }
 
 .footerComponent {
@@ -67,40 +35,6 @@ body {
   flex-flow: column;
 }
 
-.wavy-2 {
-  position: fixed;
-  bottom: 110px;
-  width: 100%;
-}
-
-.contentFooter {
-  background-image: linear-gradient(0deg, #c3c3c3, var(--blueLM));
-  /* height: 25.5vh; */
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-}
-
-.constructedBy {
-  color: var(--black);
-  font-size: 18px;
-  margin-top: 5px;
-}
-
-.imgRedes {
-  width: 40px;
-  height: 40px;
-  padding: 12px;
-  margin: auto 5px;
-}
-
-.contato {
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-  align-items: center;
-
-}
 
 @media(max-width:425px) {
   .constructedBy {
@@ -112,9 +46,9 @@ body {
     margin: auto;
   }
   #canvas {
-    top: 15%;
+    /* top: 15%;
     -webkit-transform: translate(-50%, 5%);
-    transform: translate(-50%, 5%);
+    transform: translate(-50%, 5%); */
   }
   .contentQRCode {
     width: 70%;

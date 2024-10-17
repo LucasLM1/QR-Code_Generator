@@ -1,0 +1,42 @@
+.header .header .header__name-project .header__component--imag {
+    height: 50px;
+    width: 50px;
+}
+
+.header {
+    &__component{
+        box-shadow: 0px 3px 11px 2px #f7009c;
+    }
+    &__content {
+        background-image: linear-gradient(180deg, var(--black-LM), var(--pink-LM));
+        height: 65px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // box-shadow: 0 4px 4px hsla(0, 0%, 4%, 0.3);
+        padding: 10px 0;
+        gap: 10px;
+    }
+    &__name-project {
+        display: flex;
+        text-align: center;
+        padding: 10px 0;
+        color: var(--white-LM);
+        font-size: 20px;
+        &::after{
+            content: "By: ";
+            color: var(--white);
+            font-size: 20px;
+            margin: 0 0 0 10px;
+            border-left: 3px solid var(--white-LM);
+            padding: 0 0 0 10px;
+        }
+    }
+    &__image{
+        height: 40px;
+        width: 40px;
+        // margin: 0 10px;
+
+    }
+}
