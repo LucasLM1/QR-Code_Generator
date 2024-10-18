@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/QR-Code_Generator/static/css/main.756571d1.css",
-    "main.js": "/QR-Code_Generator/static/js/main.4c7cf12d.js",
+    "main.css": "/QR-Code_Generator/static/css/main.1421dc00.css",
+    "main.js": "/QR-Code_Generator/static/js/main.910e1f29.js",
     "static/js/787.da4e636b.chunk.js": "/QR-Code_Generator/static/js/787.da4e636b.chunk.js",
-    "static/media/GitHub.png": "/QR-Code_Generator/static/media/GitHub.f11021803f68852df283.png",
+    "static/media/github.svg": "/QR-Code_Generator/static/media/github.f311924c302f18ffc9beda715cf155dd.svg",
     "index.html": "/QR-Code_Generator/index.html",
+    "static/media/world.svg": "/QR-Code_Generator/static/media/world.89720d7b019eac91c9738367411e4cd9.svg",
+    "static/media/linkedin.svg": "/QR-Code_Generator/static/media/linkedin.58b742a4da32fcd031a79ff753592f19.svg",
     "static/media/qr-code-icon.svg": "/QR-Code_Generator/static/media/qr-code-icon.133b80bb424a2e46c054c9f46c7626ce.svg",
-    "main.756571d1.css.map": "/QR-Code_Generator/static/css/main.756571d1.css.map",
-    "main.4c7cf12d.js.map": "/QR-Code_Generator/static/js/main.4c7cf12d.js.map",
+    "main.1421dc00.css.map": "/QR-Code_Generator/static/css/main.1421dc00.css.map",
+    "main.910e1f29.js.map": "/QR-Code_Generator/static/js/main.910e1f29.js.map",
     "787.da4e636b.chunk.js.map": "/QR-Code_Generator/static/js/787.da4e636b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.756571d1.css",
-    "static/js/main.4c7cf12d.js"
+    "static/css/main.1421dc00.css",
+    "static/js/main.910e1f29.js"
   ]
 }
