@@ -25,6 +25,11 @@
         background-color: var(--black-LM);
         color: var(--white-LM);
         transition: 0.5s all;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
         &:hover {
             background-color: var(--purple-LM);
             border: 1px solid var(--purple-LM);

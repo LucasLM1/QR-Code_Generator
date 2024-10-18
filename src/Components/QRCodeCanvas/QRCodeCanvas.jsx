@@ -1,6 +1,7 @@
 // src/Components/QRCodeCanvas.jsx
 import React, { useEffect, useRef } from "react";
 import '../QRCodeCanvas/QRCodeCanvas.scss';
+import { ReactComponent as DownloadIcon } from '../../assets/svg/download.svg'
 import QRCode from 'qrcode';
 
 export default function QRCodeCanvas({ text }) {
@@ -41,6 +42,7 @@ export default function QRCodeCanvas({ text }) {
             {text && (
                 <button onClick={downloadQRCode} className="qr-code__donwload">
                     Baixar QR Code
+                    <DownloadIcon/>
                 </button>
             )}
         </section>

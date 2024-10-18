@@ -1,7 +1,7 @@
 import React from "react";
-import { ReactComponent as QRCodeSVG } from '../../assets/qr-code-icon.svg'
+import { ReactComponent as QRCodeSVG } from '../../assets/svg/qr-code-icon.svg'
 import './Header.scss';
-import LogoLM from "../../assets/LM-icon.jpg";
+import LogoLM from "../../assets/image/LM-icon.jpg";
 
 const Header = () => {
     return (
