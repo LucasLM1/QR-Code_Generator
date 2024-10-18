@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/QR-Code_Generator/static/css/main.1382f38e.css",
+    "main.css": "/QR-Code_Generator/static/css/main.fa579329.css",
     "main.js": "/QR-Code_Generator/static/js/main.b1bf2a04.js",
     "static/js/787.da4e636b.chunk.js": "/QR-Code_Generator/static/js/787.da4e636b.chunk.js",
     "static/media/github.svg": "/QR-Code_Generator/static/media/github.f311924c302f18ffc9beda715cf155dd.svg",
@@ -9,12 +9,12 @@
     "static/media/linkedin.svg": "/QR-Code_Generator/static/media/linkedin.58b742a4da32fcd031a79ff753592f19.svg",
     "static/media/qr-code-icon.svg": "/QR-Code_Generator/static/media/qr-code-icon.133b80bb424a2e46c054c9f46c7626ce.svg",
     "static/media/download.svg": "/QR-Code_Generator/static/media/download.5738d6737ac5ae4dabe102edd8e3e4f3.svg",
-    "main.1382f38e.css.map": "/QR-Code_Generator/static/css/main.1382f38e.css.map",
+    "main.fa579329.css.map": "/QR-Code_Generator/static/css/main.fa579329.css.map",
     "main.b1bf2a04.js.map": "/QR-Code_Generator/static/js/main.b1bf2a04.js.map",
     "787.da4e636b.chunk.js.map": "/QR-Code_Generator/static/js/787.da4e636b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1382f38e.css",
+    "static/css/main.fa579329.css",
     "static/js/main.b1bf2a04.js"
   ]
 }
