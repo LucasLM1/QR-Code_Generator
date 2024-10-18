@@ -1,8 +1,8 @@
 import React from "react";
-// import "../App.css";
 import './Footer.scss';
-import LinkedIn from "../../assets/Linkedin.png";
-import GitHub from "../../assets/GitHub.png";
+import { ReactComponent as GithubIcon } from '../../assets/svg/github.svg'
+import { ReactComponent as LinkedIcon } from '../../assets/svg/linkedin.svg'
+import { ReactComponent as PortfolioIcon } from '../../assets/svg/world.svg'
 
 const footer = () => {
     return (
@@ -21,14 +21,19 @@ const footer = () => {
                         </strong>
                     </p>
 
-                    <div classclassName="footer__contact">
-                        <a href="https://www.linkedin.com/in/lucaslmsc/" target="_blank" rel="noreferrer">
-                            <img className="footer__logo--linkedin" src={LinkedIn} alt="LinkedIn" />
+                    <div className="footer__contact">
+                        <a className="footer__link--networks" href="https://www.linkedin.com/in/lucaslmsc/" target="_blank" rel="noreferrer">
+                            <LinkedIcon />
                         </a>
 
-                        <a href="https://github.com/LucasLM1" target="_blank" rel="noreferrer">
-                            <img className="footer__logo--github" src={GitHub} alt="GitHub" />
+                        <a className="footer__link--networks" href="https://lucaslm1.netlify.app/" target="_blank" rel="noreferrer">
+                            <PortfolioIcon />
                         </a>
+
+                        <a className="footer__link--networks" href="https://github.com/LucasLM1" target="_blank" rel="noreferrer">
+                            <GithubIcon />
+                        </a>
+
                     </div>
                 </div>
             </footer>

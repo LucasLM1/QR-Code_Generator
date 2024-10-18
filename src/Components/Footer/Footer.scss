@@ -11,6 +11,9 @@
     &__link {
         color: var(--white-LM);
         font-size: 18px;
+        @media (max-width: 450px) {
+            font-size: 12px;
+        }
     }
     &__development {
         margin-top: 5px;
@@ -18,10 +21,38 @@
     &__link {
         text-decoration: none;
         margin: 0 0 0 5px;
+        &--networks{
+            height: 40px;
+            width: 40px;
+            @media (max-width: 450px) {
+                height: 35px;
+                width: 35px;
+
+            }
+
+            svg{
+                @media (max-width: 450px) {
+                    height: 35px;
+                    width: 35px;
+                }
+            }
+
+        }
         &::hover,
         &::focus {
             text-decoration: none;
             color: var(--white-LM);
+        }
+    }
+    &__contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin: 0 0 15px 0;
+        @media (max-width: 450px) {
+            gap: 30px;
+            margin: 10px 0 15px 0;
         }
     }
     &__logo {

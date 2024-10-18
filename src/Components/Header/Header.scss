@@ -24,19 +24,32 @@
         padding: 10px 0;
         color: var(--white-LM);
         font-size: 20px;
+        line-height: 22px;
+        @media (max-width: 450px) {
+            font-size: 18px;
+            line-height: 20px;
+        }
         &::after{
             content: "By: ";
             color: var(--white);
             font-size: 20px;
+            line-height: 22px;
             margin: 0 0 0 10px;
             border-left: 3px solid var(--white-LM);
             padding: 0 0 0 10px;
+            @media (max-width: 450px) {
+                font-size: 18px;
+                line-height: 20px;
+            }
         }
     }
     &__image{
         height: 40px;
         width: 40px;
-        // margin: 0 10px;
+        @media (max-width: 450px) {
+            height: 30px;
+            width: 30px;
+        }
 
     }
 }

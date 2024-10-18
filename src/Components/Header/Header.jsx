@@ -1,6 +1,5 @@
 import React from "react";
 import { ReactComponent as QRCodeSVG } from '../../assets/qr-code-icon.svg'
-// import "../App.css";
 import './Header.scss';
 import LogoLM from "../../assets/LM-icon.jpg";
 
